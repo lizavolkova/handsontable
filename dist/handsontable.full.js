@@ -13735,9 +13735,9 @@ var AutoColumnSize = function AutoColumnSize(hotInstance) {
   }));
   this.firstCalculation = true;
   this.inProgress = false;
-  this.addHook('beforeColumnResize', (function(col, size, isDblClick) {
-    return $__11.onBeforeColumnResize(col, size, isDblClick);
-  }));
+  // this.addHook('beforeColumnResize', (function(col, size, isDblClick) {
+  //   return $__11.onBeforeColumnResize(col, size, isDblClick);
+  // }));
 };
 var $AutoColumnSize = AutoColumnSize;
 ($traceurRuntime.createClass)(AutoColumnSize, {
